@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nf.co.projektyjava.memorymaster_v11.MainActivity">
+
+    <TextView
+        android:id="@+id/memory_master"
+
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0d47a1"
+        android:drawableEnd="@drawable/memory_master_icon"
+        android:drawableStart="@drawable/memory_master_icon"
+        android:gravity="center"
+        android:text="@string/memory_master"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/start_game"
+        style="@style/Button"
+        android:background="#2196f3"
+        android:onClick="startGame"
+        android:text="@string/start_game" />
+
+    <Button
+        android:id="@+id/options"
+        style="@style/Button"
+        android:background="#1976d2"
+        android:onClick="goToOptions"
+        android:text="@string/options" />
+
+    <Button
+        android:id="@+id/score_list"
+        style="@style/Button"
+        android:background="#2196f3"
+        android:onClick="goToScoreList"
+        android:text="@string/score_list" />
+
+    <Button
+        android:id="@+id/exit"
+        style="@style/Button"
+        android:background="#1976d2"
+        android:onClick="exitGame"
+        android:text="@string/exit" />
+
+</LinearLayout>

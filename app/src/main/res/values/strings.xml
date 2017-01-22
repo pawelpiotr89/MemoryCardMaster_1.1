@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">Memory Card Master</string>
+
+    <string name="memory_master">Memory Card Master</string>
+
+    <string name="start_game">Start New Game</string>
+
+    <string name="options">Options</string>
+
+    <string name="score_list">Score List</string>
+
+    <string name="exit">Exit</string>
+
+    <string name="start">Start</string>
+
+    <string name="streak">Streak:</string>
+
+    <string name="count_streak">0</string>
+
+    <string name="time">Time:</string>
+
+    <string name="score">Score:</string>
+
+    <string name="count_time">0:00:000</string>
+
+    <string name="count_score">0,000</string>
+
+    <string name="attempt">Attempts:</string>
+
+    <string name="count_attempt">0</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="title_activity_score_window">ScoreWindow</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
